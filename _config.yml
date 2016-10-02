@@ -38,7 +38,12 @@ navs:
   -
     href: /wiki/
     label: 维基
-
+  -
+    href: /book/
+    label: 书籍
+  -
+    href: /guide/
+    label: 手册
   -
     href: /links/
     label: 链接
@@ -76,6 +81,14 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
+        
+    book:
+        output: true
+        permalink: /book/:path/
+
+    guide:
+        output: true
+        permalink: /guide/:path/
 
 # ---------------- #
 #      Socials     #

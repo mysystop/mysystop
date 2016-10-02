@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15, ''}}">
+<div class="container">
+  <div class="columns">
+    <div class="column three-fourths">
+      <div class="collection-title">
+        <h1 class="collection-header">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- / .banner -->
+<section class="container content">
+<div class="columns">
+  <div class="column three-fourths" >
+
+    <article class="article-content markdown-body">
+
+
+<table class="table table-bordered">
+  <tbody>
+    <tr><td colspan="2"><img src="{{ page.cover }}" alt="cover" class="img-thumbnail"></td></tr>
+    <tr><td>书名</td><td>{{ page.title }}</td></tr>
+    <tr><td style="width:80px;">类别</td><td>{{ page.categories }}</td></tr>
+    <tr><td style="width:80px;">作者</td><td>{{ page.author }}</td></tr>
+    <tr><td>出版商</td><td>{{ page.publisher }}</td></tr>
+    <tr><td>语言</td><td>{{ page.language }}</td></tr>
+    <tr>
+      <td>详情</td><td>
+      <a href="{{ page.link }}" title="{{ page.link }}">图书详细介绍链接</a>
+    </td>
+    </tr>    
+    <tr>
+      <td>购买</td><td>
+      <a href="{{ page.buy }}" title="{{ page.buy }}">图书购买链接</a>
+    </td>
+    </tr>
+    <tr>
+      <td>下载</td><td>
+      <a href="{{ page.download }}" title="{{ page.download }}">PDF格式下载链接</a>
+    </td>
+    </tr>    
+    <tr>
+      <td>状态</td>
+      <td>
+        {% if page.status == '已读' %}
+          <span class="label label-success">{{ page.status }}</span>
+        {% elsif page.status == '在读' %}
+          <span class="label label-info">{{ page.status }}</span>
+        {% elsif page.status == '未读' %}
+          <span class="label label-default">{{ page.status }}</span>
+        {% endif %}
+      </td></tr>
+  </tbody>
+</table>
+<hr/>
+{{ content }}
+
+
+    </article>
+    <div class="share">
+      {% include sns-share.html %}
+    </div>
+    <div class="comment">
+      {% include comments.html %}
+    </div>
+  </div>
+  <div class="column one-fourth">
+    {% include sidebar-search.html %}
+    {% include sidebar-post-nav.html %}
+  </div>
+</div>
+</section>
+<!-- /section.content -->

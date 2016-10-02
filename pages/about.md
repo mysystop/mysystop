@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 关于
 description: 软件工程师一枚
 keywords: 郭二爷,老郭,软件工程师,Java工程师,PHP工程师,Golang工程师
 comments: true
