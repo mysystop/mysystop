@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mysys.top
+url: http://www.mysys.top
 date_format: "ordinal"
-title: MYSYS技术博客
-subtitle: "研究智能化的软件"
-description: "老郭的技术博客"
-keywords: 郭二爷博客,郭二爷的技术博客,我的系统,老郭软件,老郭技术
+title: MYSYS顶级技术研究
+subtitle: "研究大数据，人工智能，生命科学。"
+description: "软件开中遇到的问题与解决方案记录。"
+keywords: 大数据,人工智能,生命科学,大脑研究，脑电研究,机器学习
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-source_code: https://github.com/#
+source_code: https://www.github.com/mysystop
 side_bar_repo_limit: 5
 
 # ---------------- #
@@ -20,7 +20,7 @@ side_bar_repo_limit: 5
 author: 老郭
 organization: 无穷大软件
 organization_url: https://www.wqdsoft.com
-location: 深圳
+location: 广东,深圳,南山区
 email: guoxinzz@gmail.com
 
 # ---------------- #
@@ -44,6 +44,9 @@ navs:
   -
     href: /guide/
     label: 手册
+  -
+    href: /download/
+    label: 下载
   -
     href: /links/
     label: 链接
@@ -89,6 +92,9 @@ collections:
     guide:
         output: true
         permalink: /guide/:path/
+    download:
+        output: true
+        permalink: /download/:path/        
 
 # ---------------- #
 #      Socials     #
