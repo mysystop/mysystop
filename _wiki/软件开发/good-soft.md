@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: 善用佳软
+title: 最佳实用软件
 categories: Recommends
 description: 用正确的工具做对的事情
 keywords: 软件, 推荐
@@ -12,7 +12,7 @@ keywords: 软件, 推荐
 
 | 功能             | Windows        | Mac OS X       |
 |------------------|----------------|----------------|
-| 文本编辑         | gVim           | MacVim         |
+| 文本编辑         | Visual Studio Code | Visual Studio Code |
 | 离线 API 文档    | Zeal           | Dash           |
 | UML              | Visio          | StarUML        |
 | 流程图           | Visio          | ProcessOn.com  |
@@ -20,6 +20,9 @@ keywords: 软件, 推荐
 | 文件内容查找     | FileLocator    | Alfred         |
 | Android 开发     | Android Studio | Android Studio |
 | Android 虚拟机   | Genymotion     | Genymotion     |
+| Java 开发       | Spring Studio | Spring Studio |
+| PHP 开发       | Sublime Text3 | Sublime Text3 |
+| Git            | Git Tortoise | Git命令行 |
 | 源码阅读         | Source Insight |                |
 | 笔记             | OneNote        | OneNote        |
 | 终端             | Cmder          | zsh            |
