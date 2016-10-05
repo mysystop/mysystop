@@ -74,7 +74,7 @@ gems:
 markdown: kramdown
 kramdown:
     input: GFM
-highlighter: pygments
+highlighter: rouge
 paginate: 8
 lsi: false
 quiet: false
@@ -127,6 +127,6 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_software_keywords: [Java, C++, Python, Design Patterns]
-skill_mobile_app_keywords: [Android, Reverse Engineering]
+skill_software_keywords: [PHP,Golang,Java,Cscharp, C++, Python, Design Patterns]
+skill_mobile_app_keywords: [React-Native,HTML5,MySQL,IOS,Android, Reverse Engineering]
 skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
