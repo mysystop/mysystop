@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 encoding: "utf-8"
 source_code: https://www.github.com/mysystop
 side_bar_repo_limit: 5
-
+exclude: ['deploy.sh','Gemfile','Gemfile.lock','LICENSE','README.md','.gitignore']
 # ---------------- #
 #      Author      #
 # ---------------- #
