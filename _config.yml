@@ -4,7 +4,7 @@
 baseurl:
 url: http://www.mysys.top
 date_format: "ordinal"
-title: MYSYS顶级技术研究
+title: MYSYS技术研究
 subtitle: "研究大数据，人工智能，生命科学。"
 description: "软件开中遇到的问题与解决方案记录。"
 keywords: 大数据,人工智能,生命科学,大脑研究，脑电研究,机器学习
@@ -27,14 +27,15 @@ email: guoxinzz@gmail.com
 #    Navigation    #
 # ---------------- #
 navs:
+
   -
     href: /
     label: 首页
-
+    
   -
     href: /categories/
     label: 分类
-
+    
   -
     href: /wiki/
     label: 维基
@@ -48,9 +49,12 @@ navs:
     href: /download/
     label: 下载
   -
+    href: /opensource/
+    label: 开源  
+  -
     href: /links/
     label: 链接
-
+    
   -
     href: /about/
     label: 关于
@@ -94,7 +98,10 @@ collections:
         permalink: /guide/:path/
     download:
         output: true
-        permalink: /download/:path/        
+        permalink: /download/:path/ 
+    opensource:
+        output: true
+        permalink: /opensource/:path/                
 
 # ---------------- #
 #      Socials     #
