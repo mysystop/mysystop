@@ -1,4 +1,5 @@
 _site/
+deploy.sh
 *.swp
 *.~vsd
 \#*\#
