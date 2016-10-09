@@ -24,6 +24,9 @@ permalink: /links/
 * [OSChina开源中国](http://www.oschina.com)
 * [CSDN](http://www.csdn.net)
 
+# 游戏框架
+* [Cocos2d](http://www.cocos.com/?v=CN)
+
 # 个人博客
 
 * [Connie酱](http://biedan.org)
