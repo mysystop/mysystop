@@ -13,6 +13,17 @@ permalink: /links/
 
 * [在线HTML转换Markdown](http://tool.lu/markdown/)
 
+# golang 社区
+* [StudyGolang](http://studygolang.com)
+* [Golang中国](http://www.golangtc.com)
+
+# PHP 社区
+* [Codeigniter框架](http://www.codeigniter.org.cn)
+
+# 技术社区
+* [OSChina开源中国](http://www.oschina.com)
+* [CSDN](http://www.csdn.net)
+
 # 个人博客
 
 * [Connie酱](http://biedan.org)
@@ -23,9 +34,13 @@ permalink: /links/
 * [张宴的博客](http://zhangyan.cc)
 * [火云笔记](http://huo119.com)
 * [P_Chou Tech Space](http://www.pchou.info)
+
+
 # 黑客与网络安全
 
 * [freebuf](http://www.freebuf.com) 关注黑客与极客
+
+
 
 
 
